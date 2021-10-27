@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pdfium.Net.SDK" Version="4.62.2704" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Luval.GoogleVisionAI\Luval.GoogleVisionAI\Luval.GoogleVisionAI.csproj" />
+  </ItemGroup>
+
+</Project>

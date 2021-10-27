@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Luval.GoogleVisionAI", "Luval.GoogleVisionAI", "{D7E5664E-1BB1-443C-92F7-C6DB827B656B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luval.GoogleVisionAI", "Luval.GoogleVisionAI\Luval.GoogleVisionAI\Luval.GoogleVisionAI.csproj", "{1B26385B-F522-4635-9F2F-108CDEE8BC5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luval.GoogleVisionAI.Activities", "Luval.GoogleVisionAI\Luval.GoogleVisionAI.Activities\Luval.GoogleVisionAI.Activities.csproj", "{0B946DBE-7705-4C84-A315-BF164A8E4ED5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luval.GoogleVisionAI.Activities.Design", "Luval.GoogleVisionAI\Luval.GoogleVisionAI.Activities.Design\Luval.GoogleVisionAI.Activities.Design.csproj", "{A636DB8F-B796-4909-A025-3B35C32B0ABB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{4C8AADD6-C170-4569-B791-E8417C6D295E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities", "Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.shproj", "{4546856D-EA50-45C6-9419-EEEACB5A80AA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities.Design", "Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.shproj", "{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{800EB915-60F4-4729-87E1-53BD834D51B3}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luval.UiPath.Sink", "Luval.UiPath.Sink\Luval.UiPath.Sink.csproj", "{A6299B1E-083C-4106-8E42-9D86DDC623D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Luval.Pdf2Image", "Luval.Pdf2Image", "{C60A6DF4-7E93-4943-8D24-8921B60B0C72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luval.Pdf2Image", "Luval.Pdf2Image\Luval.Pdf2Image\Luval.Pdf2Image.csproj", "{87B8CD2A-E659-4ECD-BA3C-867151B3EE3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luval.Pdf2Image.Activities", "Luval.Pdf2Image\Luval.Pdf2Image.Activities\Luval.Pdf2Image.Activities.csproj", "{82D474EC-5EA8-4DEC-A667-6E73EF9B9280}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luval.Pdf2Image.Activities.Design", "Luval.Pdf2Image\Luval.Pdf2Image.Activities.Design\Luval.Pdf2Image.Activities.Design.csproj", "{32EA4117-DC92-4155-AA5E-790D80ADFC89}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{0b946dbe-7705-4c84-a315-bf164a8e4ed5}*SharedItemsImports = 5
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{32ea4117-dc92-4155-aa5e-790d80adfc89}*SharedItemsImports = 5
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{4546856d-ea50-45c6-9419-eeeacb5a80aa}*SharedItemsImports = 13
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{82d474ec-5ea8-4dec-a667-6e73ef9b9280}*SharedItemsImports = 5
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{a636db8f-b796-4909-a025-3b35c32b0abb}*SharedItemsImports = 5
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{df9c43f0-add3-4fbf-995e-84b92f9cbf25}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B26385B-F522-4635-9F2F-108CDEE8BC5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B26385B-F522-4635-9F2F-108CDEE8BC5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B26385B-F522-4635-9F2F-108CDEE8BC5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B26385B-F522-4635-9F2F-108CDEE8BC5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B946DBE-7705-4C84-A315-BF164A8E4ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B946DBE-7705-4C84-A315-BF164A8E4ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B946DBE-7705-4C84-A315-BF164A8E4ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B946DBE-7705-4C84-A315-BF164A8E4ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A636DB8F-B796-4909-A025-3B35C32B0ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A636DB8F-B796-4909-A025-3B35C32B0ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A636DB8F-B796-4909-A025-3B35C32B0ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A636DB8F-B796-4909-A025-3B35C32B0ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6299B1E-083C-4106-8E42-9D86DDC623D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6299B1E-083C-4106-8E42-9D86DDC623D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6299B1E-083C-4106-8E42-9D86DDC623D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6299B1E-083C-4106-8E42-9D86DDC623D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B8CD2A-E659-4ECD-BA3C-867151B3EE3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B8CD2A-E659-4ECD-BA3C-867151B3EE3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B8CD2A-E659-4ECD-BA3C-867151B3EE3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B8CD2A-E659-4ECD-BA3C-867151B3EE3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82D474EC-5EA8-4DEC-A667-6E73EF9B9280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82D474EC-5EA8-4DEC-A667-6E73EF9B9280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82D474EC-5EA8-4DEC-A667-6E73EF9B9280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82D474EC-5EA8-4DEC-A667-6E73EF9B9280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32EA4117-DC92-4155-AA5E-790D80ADFC89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32EA4117-DC92-4155-AA5E-790D80ADFC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32EA4117-DC92-4155-AA5E-790D80ADFC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32EA4117-DC92-4155-AA5E-790D80ADFC89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B26385B-F522-4635-9F2F-108CDEE8BC5D} = {D7E5664E-1BB1-443C-92F7-C6DB827B656B}
+		{0B946DBE-7705-4C84-A315-BF164A8E4ED5} = {D7E5664E-1BB1-443C-92F7-C6DB827B656B}
+		{A636DB8F-B796-4909-A025-3B35C32B0ABB} = {D7E5664E-1BB1-443C-92F7-C6DB827B656B}
+		{4546856D-EA50-45C6-9419-EEEACB5A80AA} = {4C8AADD6-C170-4569-B791-E8417C6D295E}
+		{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25} = {4C8AADD6-C170-4569-B791-E8417C6D295E}
+		{87B8CD2A-E659-4ECD-BA3C-867151B3EE3F} = {C60A6DF4-7E93-4943-8D24-8921B60B0C72}
+		{82D474EC-5EA8-4DEC-A667-6E73EF9B9280} = {C60A6DF4-7E93-4943-8D24-8921B60B0C72}
+		{32EA4117-DC92-4155-AA5E-790D80ADFC89} = {C60A6DF4-7E93-4943-8D24-8921B60B0C72}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B4406A7-4E32-4BFB-852F-72BAD4333586}
+	EndGlobalSection
+EndGlobal
