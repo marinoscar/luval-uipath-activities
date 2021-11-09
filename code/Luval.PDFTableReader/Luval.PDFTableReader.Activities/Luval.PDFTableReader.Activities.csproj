@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net461</TargetFrameworks>
 		<RootNamespace>Luval.PDFTableReader.Activities</RootNamespace>
@@ -9,6 +9,13 @@
     <OutputPath>bin\$(Configuration)\</OutputPath>
     <DocumentationFile>bin\$(Configuration)\Luval.PDFTableReader.Activities.xml</DocumentationFile>
     <ApplicationIcon>luval-64x64.ico</ApplicationIcon>
+    <Authors>Oscar Marin</Authors>
+    <Company>Oscar Marin</Company>
+    <Product>PDF Table Reader</Product>
+    <PackageProjectUrl>https://github.com/marinoscar/luval-uipath-activities/tree/main/code/Luval.PDFTableReader</PackageProjectUrl>
+    <PackageIcon>LV-Luval-Logo-200x200.png</PackageIcon>
+    <RepositoryUrl>https://github.com/marinoscar/luval-uipath-activities/tree/main/code/Luval.PDFTableReader</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Tabula" Version="0.1.1" />
@@ -48,6 +55,12 @@
     <EmbeddedResource Update="Properties\Resources.*.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\marin\code\img\LV-Luval-Logo-200x200.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
   <Import Project="..\..\Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems" Label="Shared" />
 </Project>

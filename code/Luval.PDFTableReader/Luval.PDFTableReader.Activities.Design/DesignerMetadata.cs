@@ -19,6 +19,10 @@ namespace Luval.PDFTableReader.Activities.Design
             builder.AddCustomAttributes(typeof(ExtractPDFTablesInPage), new DesignerAttribute(typeof(ExtractPDFTablesInPageDesigner)));
             builder.AddCustomAttributes(typeof(ExtractPDFTablesInPage), new HelpKeywordAttribute(""));
 
+            builder.AddCustomAttributes(typeof(ExtractEquipmentToInstallAndSummary), categoryAttribute);
+            builder.AddCustomAttributes(typeof(ExtractEquipmentToInstallAndSummary), new DesignerAttribute(typeof(ExtractEquipmentToInstallAndSummaryDesigner)));
+            builder.AddCustomAttributes(typeof(ExtractEquipmentToInstallAndSummary), new HelpKeywordAttribute(""));
+
 
             MetadataStore.AddAttributeTable(builder.CreateTable());
         }

@@ -106,6 +106,60 @@ namespace Luval.PDFTableReader.Activities.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to For Dealer contract extracts the equipment to install and summary data from page 4.
+        /// </summary>
+        public static string ExtractEquipmentToInstallAndSummary_Description {
+            get {
+                return ResourceManager.GetString("ExtractEquipmentToInstallAndSummary_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Extract Equipment to Install and Summary.
+        /// </summary>
+        public static string ExtractEquipmentToInstallAndSummary_DisplayName {
+            get {
+                return ResourceManager.GetString("ExtractEquipmentToInstallAndSummary_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Dealer contract PDF file with the table information in page 4.
+        /// </summary>
+        public static string ExtractEquipmentToInstallAndSummary_FileName_Description {
+            get {
+                return ResourceManager.GetString("ExtractEquipmentToInstallAndSummary_FileName_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to File Name.
+        /// </summary>
+        public static string ExtractEquipmentToInstallAndSummary_FileName_DisplayName {
+            get {
+                return ResourceManager.GetString("ExtractEquipmentToInstallAndSummary_FileName_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A DataSet object with 2 DataTables one with the Equipment to Install and another with the summary .
+        /// </summary>
+        public static string ExtractEquipmentToInstallAndSummary_Tables_Description {
+            get {
+                return ResourceManager.GetString("ExtractEquipmentToInstallAndSummary_Tables_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tables.
+        /// </summary>
+        public static string ExtractEquipmentToInstallAndSummary_Tables_DisplayName {
+            get {
+                return ResourceManager.GetString("ExtractEquipmentToInstallAndSummary_Tables_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Extracts the tables on a PDF file.
         /// </summary>
         public static string ExtractPDFTablesInPage_Description {

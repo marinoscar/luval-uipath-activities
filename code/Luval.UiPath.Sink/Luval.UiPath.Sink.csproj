@@ -6,11 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="EPPlus" Version="4.5.3.3" />
     <PackageReference Include="Pdfium.Net.SDK" Version="4.62.2704" />
+    <PackageReference Include="Tabula" Version="0.1.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Luval.GoogleVisionAI\Luval.GoogleVisionAI\Luval.GoogleVisionAI.csproj" />
+    <ProjectReference Include="..\Luval.PDFTableReader\Luval.PDFTableReader\Luval.PDFTableReader.csproj" />
   </ItemGroup>
 
 </Project>
