@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net461</TargetFrameworks>
-		<RootNamespace>Luval.PDFTableReader.Activities.Design</RootNamespace>
-		<AssemblyName>Luval.PDFTableReader.Activities.Design</AssemblyName>
-    <PackageId>Luval.PDFTableReader.Activities</PackageId>
+		<RootNamespace>Luval.GoogleTextAnalyticsParser.Activities.Design</RootNamespace>
+		<AssemblyName>Luval.GoogleTextAnalyticsParser.Activities.Design</AssemblyName>
+    <PackageId>Luval.GoogleTextAnalyticsParser.Activities</PackageId>
   </PropertyGroup>
   <!-- Package Metadata -->
   <PropertyGroup>
@@ -30,8 +30,7 @@
     <PackageVersion>0.1.0</PackageVersion>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Designers\ExtractEquipmentToInstallAndSummaryDesigner.xaml" />
-    <None Remove="Designers\ExtractPDFTablesInPageDesigner.xaml" />
+    <None Remove="Designers\ParseEntitiesDesigner.xaml" />
   </ItemGroup>
   <!-- Package Icon -->
   <ItemGroup>
@@ -53,7 +52,7 @@
   </Target>
   <PropertyGroup>
     <OutputPath>bin\$(Configuration)\</OutputPath>
-    <DocumentationFile>bin\$(Configuration)\Luval.PDFTableReader.Activities.Design.xml</DocumentationFile>
+    <DocumentationFile>bin\$(Configuration)\Luval.GoogleTextAnalyticsParser.Activities.Design.xml</DocumentationFile>
   </PropertyGroup>
 	<ItemGroup>
 		<Reference Include="System" />
@@ -78,10 +77,7 @@
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Page>
-    <Page Include="Designers\ExtractEquipmentToInstallAndSummaryDesigner.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </Page>
-    <Page Include="Designers\ExtractPDFTablesInPageDesigner.xaml">
+    <Page Include="Designers\ParseEntitiesDesigner.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </Page>
     <Page Include="Themes\Icons.xaml">
@@ -91,7 +87,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Luval.PDFTableReader.Activities\Luval.PDFTableReader.Activities.csproj" PrivateAssets="All" />
+    <ProjectReference Include="..\Luval.GoogleTextAnalyticsParser.Activities\Luval.GoogleTextAnalyticsParser.Activities.csproj" PrivateAssets="All" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">

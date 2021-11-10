@@ -1,4 +1,5 @@
-﻿using Luval.GoogleVisionAI;
+﻿using Luval.GoogleTextAnalyticsParser;
+using Luval.GoogleVisionAI;
 using Luval.PDFTableReader;
 using OfficeOpenXml;
 using System;
@@ -13,6 +14,10 @@ namespace Luval.UiPath.Sink
     {
         static void Main(string[] args)
         {
+            var json = @"{""sentences"":[],""tokens"":[],""entities"":[{""name"":""Teja"",""type"":""PERSON"",""metadata"":{""wikipedia_url"":""https://en.wikipedia.org/wiki/Teja_(director)"",""mid"":""/m/04y6dj9""},""salience"":1,""mentions"":[{""text"":{""content"":""Teja"",""beginOffset"":-1},""type"":""PROPER""}]}],""documentSentiment"":{""magnitude"":0,""score"":0},""language"":""en"",""categories"":[]}";
+            //var parseEntities = new EntityParser();
+            EntityParser.GetEntities(json);
+
             var dir = new DirectoryInfo(@"C:\Users\CH489GT\Downloads\Test");
             foreach (var file in dir.GetFiles("*.pdf", SearchOption.AllDirectories))
             {

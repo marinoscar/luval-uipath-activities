@@ -1,26 +1,21 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net461</TargetFrameworks>
-		<RootNamespace>Luval.PDFTableReader.Activities</RootNamespace>
-		<AssemblyName>Luval.PDFTableReader.Activities</AssemblyName>
-    <PackageId>Luval.PDFTableReader.Activities.Implementation</PackageId>
+		<RootNamespace>Luval.GoogleTextAnalyticsParser.Activities</RootNamespace>
+		<AssemblyName>Luval.GoogleTextAnalyticsParser.Activities</AssemblyName>
+    <PackageId>Luval.GoogleTextAnalyticsParser.Activities.Implementation</PackageId>
   </PropertyGroup>
   <PropertyGroup>
     <OutputPath>bin\$(Configuration)\</OutputPath>
-    <DocumentationFile>bin\$(Configuration)\Luval.PDFTableReader.Activities.xml</DocumentationFile>
+    <DocumentationFile>bin\$(Configuration)\Luval.GoogleTextAnalyticsParser.Activities.xml</DocumentationFile>
     <ApplicationIcon>luval-64x64.ico</ApplicationIcon>
     <Authors>Oscar Marin</Authors>
-    <Company>Oscar Marin</Company>
-    <Product>PDF Table Reader</Product>
-    <PackageProjectUrl>https://github.com/marinoscar/luval-uipath-activities/tree/main/code/Luval.PDFTableReader</PackageProjectUrl>
+    <Product>Luval Google Text Analytics Parser</Product>
     <PackageIcon>LV-Luval-Logo-200x200.png</PackageIcon>
-    <RepositoryUrl>https://github.com/marinoscar/luval-uipath-activities/tree/main/code/Luval.PDFTableReader</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>1.0.1</Version>
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="Tabula" Version="0.1.1" />
-  </ItemGroup>
 	<ItemGroup>
 		<Reference Include="System" />
 		
@@ -39,7 +34,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Luval.PDFTableReader\Luval.PDFTableReader.csproj" PrivateAssets="All" />
+    <ProjectReference Include="..\Luval.GoogleTextAnalyticsParser\Luval.GoogleTextAnalyticsParser.csproj" PrivateAssets="All" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
@@ -56,6 +51,9 @@
     <EmbeddedResource Update="Properties\Resources.*.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\marin\code\img\LV-Luval-Logo-200x200.png">

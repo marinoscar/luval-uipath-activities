@@ -40,15 +40,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luval.PDFTableReader.Activi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luval.PDFTableReader.Activities.Design", "Luval.PDFTableReader\Luval.PDFTableReader.Activities.Design\Luval.PDFTableReader.Activities.Design.csproj", "{783D5DBE-7275-4E60-B1B3-770A522F9D8B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Luval.GoogleTextAnalyticsParser", "Luval.GoogleTextAnalyticsParser", "{ABDBDA5B-9285-4E71-B45F-5B3D3BB0AE18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luval.GoogleTextAnalyticsParser", "Luval.GoogleTextAnalyticsParser\Luval.GoogleTextAnalyticsParser\Luval.GoogleTextAnalyticsParser.csproj", "{4E935F30-5026-4C5E-A4D2-CB66AE8F1748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luval.GoogleTextAnalyticsParser.Activities", "Luval.GoogleTextAnalyticsParser\Luval.GoogleTextAnalyticsParser.Activities\Luval.GoogleTextAnalyticsParser.Activities.csproj", "{AB79F771-20B8-478A-981B-1EB1062E9024}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luval.GoogleTextAnalyticsParser.Activities.Design", "Luval.GoogleTextAnalyticsParser\Luval.GoogleTextAnalyticsParser.Activities.Design\Luval.GoogleTextAnalyticsParser.Activities.Design.csproj", "{4B5E229A-6AD6-4549-9B9A-86EF478F0193}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{0b946dbe-7705-4c84-a315-bf164a8e4ed5}*SharedItemsImports = 5
 		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{32ea4117-dc92-4155-aa5e-790d80adfc89}*SharedItemsImports = 5
 		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{4546856d-ea50-45c6-9419-eeeacb5a80aa}*SharedItemsImports = 13
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{4b5e229a-6ad6-4549-9b9a-86ef478f0193}*SharedItemsImports = 5
 		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{783d5dbe-7275-4e60-b1b3-770a522f9d8b}*SharedItemsImports = 5
 		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{82d474ec-5ea8-4dec-a667-6e73ef9b9280}*SharedItemsImports = 5
 		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{a636db8f-b796-4909-a025-3b35c32b0abb}*SharedItemsImports = 5
 		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{a706d3fa-38cb-4bac-bff0-a2cce68bbc77}*SharedItemsImports = 5
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{ab79f771-20b8-478a-981b-1eb1062e9024}*SharedItemsImports = 5
 		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{df9c43f0-add3-4fbf-995e-84b92f9cbf25}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -96,6 +106,18 @@ Global
 		{783D5DBE-7275-4E60-B1B3-770A522F9D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{783D5DBE-7275-4E60-B1B3-770A522F9D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{783D5DBE-7275-4E60-B1B3-770A522F9D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E935F30-5026-4C5E-A4D2-CB66AE8F1748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E935F30-5026-4C5E-A4D2-CB66AE8F1748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E935F30-5026-4C5E-A4D2-CB66AE8F1748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E935F30-5026-4C5E-A4D2-CB66AE8F1748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB79F771-20B8-478A-981B-1EB1062E9024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB79F771-20B8-478A-981B-1EB1062E9024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB79F771-20B8-478A-981B-1EB1062E9024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB79F771-20B8-478A-981B-1EB1062E9024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B5E229A-6AD6-4549-9B9A-86EF478F0193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B5E229A-6AD6-4549-9B9A-86EF478F0193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B5E229A-6AD6-4549-9B9A-86EF478F0193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B5E229A-6AD6-4549-9B9A-86EF478F0193}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -112,6 +134,9 @@ Global
 		{AD678686-8868-4905-A21B-0E86200E6CED} = {C8E9EA62-A9D8-4787-BFE5-02817AF16E5C}
 		{A706D3FA-38CB-4BAC-BFF0-A2CCE68BBC77} = {C8E9EA62-A9D8-4787-BFE5-02817AF16E5C}
 		{783D5DBE-7275-4E60-B1B3-770A522F9D8B} = {C8E9EA62-A9D8-4787-BFE5-02817AF16E5C}
+		{4E935F30-5026-4C5E-A4D2-CB66AE8F1748} = {ABDBDA5B-9285-4E71-B45F-5B3D3BB0AE18}
+		{AB79F771-20B8-478A-981B-1EB1062E9024} = {ABDBDA5B-9285-4E71-B45F-5B3D3BB0AE18}
+		{4B5E229A-6AD6-4549-9B9A-86EF478F0193} = {ABDBDA5B-9285-4E71-B45F-5B3D3BB0AE18}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6B4406A7-4E32-4BFB-852F-72BAD4333586}

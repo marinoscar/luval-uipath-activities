@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Luval.GoogleTextAnalyticsParser\Luval.GoogleTextAnalyticsParser\Luval.GoogleTextAnalyticsParser.csproj" />
     <ProjectReference Include="..\Luval.GoogleVisionAI\Luval.GoogleVisionAI\Luval.GoogleVisionAI.csproj" />
     <ProjectReference Include="..\Luval.PDFTableReader\Luval.PDFTableReader\Luval.PDFTableReader.csproj" />
   </ItemGroup>
